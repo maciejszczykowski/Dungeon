@@ -1,0 +1,161 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgb(76, 146, 238);
+    color: azure;
+    font-family: Algeraya, sans-serif;
+}
+
+h2{
+    font-size: 250%;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2%;
+}
+
+h3{
+    font-size: 175%;
+    line-height: 150%;
+    padding: 5% 0;
+    font-weight: 400;
+}
+
+p {
+    font-size: 160%;
+    line-height: 150%;
+    padding: 3%;
+    /* text indent, wciecie w akapicie */
+    text-indent: 2%;
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    /* auto, czyli zminiejszaja sie i zwiekszaja wraz ze zmniejszaniem okna */
+    width: auto;
+    height: auto;
+}
+
+header {
+
+    background-color: lightskyblue;
+    width: 100%;
+    height: 85px;
+
+}
+#header-inner   {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+#logo {
+    background: url("../img/RD.png") no-repeat center;
+    margin: 20px;
+    float: left;
+    width: 200px;
+    height: 60px;
+}
+/* nawigacja */
+nav {
+    float: right;
+    padding: 25px 20px 0 0;
+}
+
+#menu-icon {
+    background: url("../img/nav.png") no-repeat;
+    width: 40px;
+    height: 40px;
+    display: hidden;
+
+}
+
+a:hover#menu-icon {
+    border-radius: 4px 4px 0 0;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+li {
+    font-size: 150%;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    font-family: 'Alegreya Sans', sans-serif;
+
+}
+ /* zmieniamy a ktore jest wewnatrz li/ul/nav */
+nav ul li a {
+    color: azure;
+    text-decoration: none;
+
+}
+/* kolor zmieni sie po najechaniu na nav */
+nav ul li a:hover, current{
+color: rgb(192, 226, 226);
+}
+
+.banner {
+    width: 100%;
+    background-color: lightskyblue;
+}
+
+#banner-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.one-fourth {
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+#html, #desktop-text{
+    background-color: coral;
+}
+
+#social, #tablet-text { 
+    background-color: silver;
+}
+
+#css, #phone-text {
+
+    background-color: brown; 
+}
+
+#seo {
+    background-color: aquamarine;
+}
+/* obrazki html4 css seo social */
+.one-fourth i {
+
+    font-size: 500%;
+    padding: 10%;
+
+}
+
+.one-second {
+    
+    width: 100%;
+    clear: both;
+    /* clear both czysci wczesniejsze floaty */
+
+}
+
+article, aside {
+
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+
+}

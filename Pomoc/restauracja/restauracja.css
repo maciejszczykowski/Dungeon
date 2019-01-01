@@ -1,0 +1,96 @@
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.obrazek {
+
+    background: url("heroimage.jpg") no-repeat;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.tekst {
+color: white;
+position: absolute;
+top: 25%;
+left: 25%;
+width: 50%;
+
+
+}
+
+.tekst h1 {
+    font-size: 2,5em;
+    text-align: center;
+
+}
+
+
+.formularz {
+
+    text-align: center;
+    
+}
+
+.nazwa-jedzenia {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .6em;
+    border-radius: 2em;
+    border: none;
+    outline: none
+
+}
+
+.formularz button {
+
+    width: 40%;
+    background-color: aquamarine;
+    color: white;
+    padding: 0.6em;
+    margin-top: 1em;
+    border: none;
+    outline: none;
+    border-radius: .3em;
+
+}
+
+.produkty {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3em;
+
+}
+
+.kolumna {
+    width: 32%;
+    margin-left: .5em;
+    float: left;
+
+}
+
+.kolumna img {
+    width: 100%;
+
+}
+
+.kolumna:first-of-type {
+    margin-left: 0;
+
+}
+
+@media screen and (max-width: 700px) {
+    .kolumna {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+
+    }
+}

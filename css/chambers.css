@@ -1,0 +1,71 @@
+body {
+    font-family: Impact;
+    background-color: antiquewhite;
+  }
+  
+  .dungeonname {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .entry {
+    position: relative;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(../img/backgrnd.jpg);
+  }
+
+  .entry h1 {
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .entry p {
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0%;
+  }
+  
+  .description {
+    padding: 10px;
+  }
+  
+  #first2second {
+    width: 50px;
+    height: 100px;  
+    display: inline-block;
+    background-color: rgb(37, 24, 6);
+    border: 10px ridge rgb(175, 174, 173);
+    border-bottom: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+  }
+  
+  #fail {
+    width: 50px;
+    height: 100px;  
+    display: inline-block;
+    background-color: rgb(83, 82, 80);
+    border: 10px ridge rgb(83, 82, 80);
+    border-bottom: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 10px;
+    color: rgb(190, 196, 185);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  
+  }

@@ -6,7 +6,7 @@ window.onload = function(){
         var birthdayDate = new Date(this.value);               
         var actualDate = new Date();
         if(actualDate.getFullYear() - birthdayDate.getFullYear() >= 18){
-            pResult.style.color = "black";
+            pResult.style.color = "white";
             pResult.innerHTML = "You are allowed to play. Press start button";
             
         }
