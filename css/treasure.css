@@ -1,0 +1,9 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    background: url("../img/gold.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+    color: black;
+    text-align: center;
+    margin-top: 10%;
+}

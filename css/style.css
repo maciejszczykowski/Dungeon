@@ -2,7 +2,6 @@ body {
   background: url("../img/dungeon-background-1920x1080.jpg") no-repeat;
     background-size: cover;
     position: relative;
-    height: 100vh;
     color: antiquewhite;
     text-align: center;
     font-family: 'Permanent Marker', cursive;
@@ -16,4 +15,21 @@ footer ul li {
 footer {
 
   font-family: 'Times New Roman', Times, serif;
+}
+
+.Title {
+margin-top: 50px;
+margin-bottom: 70px;
+  
+
+}
+
+.Date {
+  
+
+}
+
+footer {
+
+  margin-top: 150px;
 }
