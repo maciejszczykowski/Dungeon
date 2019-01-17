@@ -7,19 +7,16 @@ body {
     font-family: 'Permanent Marker', cursive;
 }
 
-   /* zmieniamy a ktore jest wewnatrz li/ul/nav */
-footer ul li {
-  list-style-type: none;
-}
 
 footer {
 
   font-family: 'Times New Roman', Times, serif;
+  margin-top: 70px;
 }
 
 .Title {
 margin-top: 50px;
-margin-bottom: 70px;
+margin-bottom: 50px;
 }
 
 h1 {
@@ -27,13 +24,12 @@ h1 {
 font-size: 50px;
 
 }
-
-.Date {
-  
+nav ul li a {
+  color: rgb(39, 118, 236);
+  text-decoration: none;
+  list-style-type: none;
 
 }
-
-footer {
-
-  margin-top: 150px;
+nav ul li a:hover, current{
+color: rgb(192, 226, 226);
 }
