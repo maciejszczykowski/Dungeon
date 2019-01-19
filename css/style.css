@@ -17,6 +17,7 @@ footer {
 .Title {
 margin-top: 50px;
 margin-bottom: 50px;
+
 }
 
 h1 {
@@ -27,9 +28,14 @@ font-size: 50px;
 nav ul li a {
   color: rgb(39, 118, 236);
   text-decoration: none;
-  list-style-type: none;
-
+  
 }
+nav ul {
+  list-style-type: none;
+}
+
+
+
 nav ul li a:hover, current{
 color: rgb(192, 226, 226);
 }
