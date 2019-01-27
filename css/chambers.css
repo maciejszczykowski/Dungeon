@@ -1,11 +1,12 @@
 body {
     font-family: Impact;
-    background-color: antiquewhite;
+    background-color: black;
   }
   
   .dungeonname {
     font-size: 30px;
     text-align: center;
+    color: antiquewhite;
   }
   
   .entry {
@@ -33,6 +34,7 @@ body {
   
   .description {
     padding: 10px;
+    color: antiquewhite;
   }
   
   #LeftDoor {
