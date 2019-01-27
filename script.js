@@ -8,7 +8,8 @@ window.onload = function(){
         if(actualDate.getFullYear() - birthdayDate.getFullYear() >= 18){
             pResult.style.color = "white";
             pResult.innerHTML = "You are allowed to play. Press start button";
-            
+            document.getElementById("button").className = 'show'; 
+
         }
         else
         {    
