@@ -66,3 +66,7 @@ color: rgb(192, 226, 226);
   background-color: #f44336;
   color: white;
 }
+
+p {
+  margin: 40px;
+}
